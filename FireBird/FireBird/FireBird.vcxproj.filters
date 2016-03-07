@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\FireBird.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\FireBird.ico">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mac-app-ui.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mac-app-ui_03.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mac-app-ui_07.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mac-app-ui_09.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mac-app-ui_11.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap6.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mac-app-ui - 2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login\alterpw.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login\login_bg.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login\no_account.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login\sign_in.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login\UserLogin.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\chat.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mydown.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\myupfile.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\shezhi.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\bitmap17.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mac-app-ui_10.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mac-app-ui_12.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mac-app-ui_077.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mac-app-ui_088.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\mac-app-ui_111.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\3_12.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\3_13.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\3_02.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\3_03.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\register\register_bg.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\register\register_15.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\register\register_15_2_15.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\register\register_cancel_15.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\register\register_cancel_16_15.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\chatroom\chat_bg.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\chatroom\chat_45.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\chatroom\chat_45_2.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\chatroom\Nipic_10648892_20120802140359697389_14.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\chatroom\Nipic_10648892_20120802140359697389_15.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\image\000.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\register\001.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\register\002.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\register\003.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\register\004.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\register\005.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\register\006.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\register\007.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\register\008.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\image\001.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\image\002.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\image\003.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\image\004.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\image\005.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\image\006.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\image\007.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\image\008.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\dowload_maopao.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\download-complete.wav">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login\login-form.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login\login-form_03.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login\login-form_03_hot.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login\login-form_08.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login\login-form_08_hot.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login\login-form_06.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login\login-form_06_hot.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\login\login-form_12.bmp">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FireBird.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FireBirdDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SXBtn.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="DownLoad.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="UpFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SearchDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatRoom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Register.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MySocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="RECVPARAM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BubleWnd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GlobalVariable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FindPassword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AlterPassword.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="LogOff.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FireBird.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FireBirdDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SXBtn.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DownLoad.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UpFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="SearchDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatRoom.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Register.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="MySocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RECVPARAM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BubleWnd.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GlobalVariable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FindPassword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AlterPassword.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LogOff.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FireBird.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

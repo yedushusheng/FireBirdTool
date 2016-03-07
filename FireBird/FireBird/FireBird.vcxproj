@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{D599AB9B-2B30-4912-BBF4-168CD395AF9E}</ProjectGuid>
+    <RootNamespace>FireBird</RootNamespace>
+    <Keyword>MFCProj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+    <Midl>
+      <MkTypLibCompatible>false</MkTypLibCompatible>
+      <ValidateAllParameters>true</ValidateAllParameters>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0804</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(IntDir);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="res\3_02.bmp" />
+    <None Include="res\3_03.bmp" />
+    <None Include="res\3_12.bmp" />
+    <None Include="res\3_13.bmp" />
+    <None Include="res\bitmap17.bmp" />
+    <None Include="res\bitmap6.bmp" />
+    <None Include="res\chat.bmp" />
+    <None Include="res\chatroom\chat_45.bmp" />
+    <None Include="res\chatroom\chat_45_2.bmp" />
+    <None Include="res\chatroom\chat_bg.bmp" />
+    <None Include="res\chatroom\Nipic_10648892_20120802140359697389_14.bmp" />
+    <None Include="res\chatroom\Nipic_10648892_20120802140359697389_15.bmp" />
+    <None Include="res\dowload_maopao.bmp" />
+    <None Include="res\download-complete.wav" />
+    <None Include="res\FireBird.ico" />
+    <None Include="res\FireBird.rc2" />
+    <None Include="res\image\000.bmp" />
+    <None Include="res\image\001.bmp" />
+    <None Include="res\image\002.bmp" />
+    <None Include="res\image\003.bmp" />
+    <None Include="res\image\004.bmp" />
+    <None Include="res\image\005.bmp" />
+    <None Include="res\image\006.bmp" />
+    <None Include="res\image\007.bmp" />
+    <None Include="res\image\008.bmp" />
+    <None Include="res\login\alterpw.bmp" />
+    <None Include="res\login\login-form.bmp" />
+    <None Include="res\login\login-form_03.bmp" />
+    <None Include="res\login\login-form_03_hot.bmp" />
+    <None Include="res\login\login-form_06.bmp" />
+    <None Include="res\login\login-form_06_hot.bmp" />
+    <None Include="res\login\login-form_08.bmp" />
+    <None Include="res\login\login-form_08_hot.bmp" />
+    <None Include="res\login\login-form_12.bmp" />
+    <None Include="res\login\login_bg.bmp" />
+    <None Include="res\login\no_account.bmp" />
+    <None Include="res\login\sign_in.bmp" />
+    <None Include="res\login\UserLogin.bmp" />
+    <None Include="res\mac-app-ui - 2.bmp" />
+    <None Include="res\mac-app-ui.bmp" />
+    <None Include="res\mac-app-ui_03.bmp" />
+    <None Include="res\mac-app-ui_07.bmp" />
+    <None Include="res\mac-app-ui_077.bmp" />
+    <None Include="res\mac-app-ui_088.bmp" />
+    <None Include="res\mac-app-ui_09.bmp" />
+    <None Include="res\mac-app-ui_10.bmp" />
+    <None Include="res\mac-app-ui_11.bmp" />
+    <None Include="res\mac-app-ui_111.bmp" />
+    <None Include="res\mac-app-ui_12.bmp" />
+    <None Include="res\mydown.bmp" />
+    <None Include="res\myupfile.bmp" />
+    <None Include="res\register\001.bmp" />
+    <None Include="res\register\002.bmp" />
+    <None Include="res\register\003.bmp" />
+    <None Include="res\register\004.bmp" />
+    <None Include="res\register\005.bmp" />
+    <None Include="res\register\006.bmp" />
+    <None Include="res\register\007.bmp" />
+    <None Include="res\register\008.bmp" />
+    <None Include="res\register\register_15.bmp" />
+    <None Include="res\register\register_15_2_15.bmp" />
+    <None Include="res\register\register_bg.bmp" />
+    <None Include="res\register\register_cancel_15.bmp" />
+    <None Include="res\register\register_cancel_16_15.bmp" />
+    <None Include="res\shezhi.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AlterPassword.h" />
+    <ClInclude Include="BmpButton.h" />
+    <ClInclude Include="BubleWnd.h" />
+    <ClInclude Include="ChatRoom.h" />
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="DownLoad.h" />
+    <ClInclude Include="FindPassword.h" />
+    <ClInclude Include="FireBird.h" />
+    <ClInclude Include="FireBirdDlg.h" />
+    <ClInclude Include="GlobalVariable.h" />
+    <ClInclude Include="LoginDlg.h" />
+    <ClInclude Include="LogOff.h" />
+    <ClInclude Include="MySocket.h" />
+    <ClInclude Include="ProcessList.h" />
+    <ClInclude Include="RECVPARAM.h" />
+    <ClInclude Include="Register.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="SearchDlg.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SXBtn.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UpFile.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AlterPassword.cpp" />
+    <ClCompile Include="BmpButton.cpp" />
+    <ClCompile Include="BubleWnd.cpp" />
+    <ClCompile Include="ChatRoom.cpp" />
+    <ClCompile Include="Config.cpp" />
+    <ClCompile Include="DownLoad.cpp" />
+    <ClCompile Include="FindPassword.cpp" />
+    <ClCompile Include="FireBird.cpp" />
+    <ClCompile Include="FireBirdDlg.cpp" />
+    <ClCompile Include="GlobalVariable.cpp" />
+    <ClCompile Include="LoginDlg.cpp" />
+    <ClCompile Include="LogOff.cpp" />
+    <ClCompile Include="MySocket.cpp" />
+    <ClCompile Include="ProcessList.cpp" />
+    <ClCompile Include="RECVPARAM.cpp" />
+    <ClCompile Include="Register.cpp" />
+    <ClCompile Include="SearchDlg.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="SXBtn.cpp" />
+    <ClCompile Include="UpFile.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FireBird.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="FireBird.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

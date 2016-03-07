@@ -1,0 +1,3 @@
+本系统为火鸟下载系统1.0版
+
+系统数据库采用SQL server2008，需要连接ODBC数据源，数据源名称FireBird，数据库ID=sa  password=666666，请在server项目的userinfo.cpp,sharedfile.cpp两个源文件的GetDefaultConnect()函数里修改连接参数。客户端请在项目的GlobalVariable.cpp源文件修改服务器ip,ChatRoom.cpp源文件的服务器ip。
